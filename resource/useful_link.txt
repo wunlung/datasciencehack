@@ -1,0 +1,44 @@
+
+Collaborative filtering
+https://www.kaggle.com/ajmichelutti/collaborative-filtering-on-anime-data
+
+large scale classification
+https://www.kaggle.com/c/lshtc/discussion/7980
+https://www.kaggle.com/c/lshtc/discussion/6993
+
+keras
+https://keras.io/getting-started/sequential-model-guide/
+https://keras.io/why-use-keras/
+https://keras.io/optimizers/
+https://machinelearningmastery.com/visualize-deep-learning-neural-network-model-keras/
+
+hscode
+https://www.censtatd.gov.hk/trader/hscode/index_tc.jsp
+
+embedding
+https://machinelearningmastery.com/use-word-embedding-layers-deep-learning-keras/
+https://blog.keras.io/using-pre-trained-word-embeddings-in-a-keras-model.html
+https://keras.io/layers/embeddings/
+https://jovianlin.io/embeddings-in-keras/
+https://stats.stackexchange.com/questions/182775/what-is-an-embedding-layer-in-a-neural-network
+
+
+Feature Union/Text + numeric + category 
+https://stats.stackexchange.com/questions/297529/combining-text-and-non-text-features-in-a-classification-model
+https://sondosatwi.wordpress.com/2017/08/01/using-text-data-and-dataframemapper-in-python/
+https://docs.scipy.org/doc/numpy/reference/generated/numpy.hstack.html
+https://stackoverflow.com/questions/26856095/merge-numeric-and-text-features-for-category-classification
+
+http://zacstewart.com/2014/08/05/pipelines-of-featureunions-of-pipelines.html
+
+http://scikit-learn.org/stable/auto_examples/hetero_feature_union.html
+http://michelleful.github.io/code-blog/2015/06/20/pipelines/
+https://buhrmann.github.io/sklearn-pipelines.html
+http://zacstewart.com/2014/08/05/pipelines-of-featureunions-of-pipelines.html
+http://zacstewart.com/2015/04/28/document-classification-with-scikit-learn.html
+
+
+kaggle
+https://github.com/Microsoft/LightGBM/tree/master/examples
+https://github.com/kaz-Anova
+https://www.coursera.org/learn/competitive-data-science/lecture/neQT5/kazanovas-competition-pipeline-part-1?utm_medium=email&utm_source=other&utm_campaign=opencourse.Mz1ninIDEeeWCg71xNIlJg.announcements~opencourse.Mz1ninIDEeeWCg71xNIlJg.t8zzu-48Eee21RIOYFR2nA
