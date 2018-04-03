@@ -123,3 +123,38 @@ def normalize_corpus(corpus, html_stripping=True, contraction_expansion=True,
         normalized_corpus.append(doc)
         
     return normalized_corpus
+
+def normalize_doc(doc, html_stripping=True, contraction_expansion=True,
+                     accented_char_removal=True, text_lower_case=True, 
+                     text_lemmatization=True, special_char_removal=True, 
+                     stopword_removal=True):
+    if html_stripping:
+        doc = strip_html_tags(doc)
+    
+    if accented_char_removal:
+        doc = remove_accented_chars(doc)
+        
+    if contraction_expansion:
+        doc = expand_contractions(doc)
+        
+    if text_lower_case:
+        doc = doc.lower()
+        
+    # remove extra newlines
+    doc = re.sub(r'[\r|\n|\r\n]+', ' ',doc)
+    # insert spaces between special characters to isolate them    
+    special_char_pattern = re.compile(r'([{.(-)!}])')
+    doc = special_char_pattern.sub(" \\1 ", doc)
+    
+    if text_lemmatization:
+        doc = lemmatize_text(doc)
+        
+    if special_char_removal:
+        doc = remove_special_characters(doc)  
+        
+    # remove extra whitespace
+    doc = re.sub(' +', ' ', doc)
+    
+    if stopword_removal:
+        doc = remove_stopwords(doc, is_lower_case=text_lower_case)
+    return doc
